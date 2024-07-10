@@ -1,0 +1,100 @@
+
+.rewardCard {
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .left{
+    padding: 50px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .pepe {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .airdrop {
+    font-size: 18px;
+    color: #00ff00;
+  }
+  
+  .timer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    height: 70px;
+    border: 1px solid rgb(110, 108, 108);
+  }
+  
+  .time {
+    text-align: center;
+  }
+  
+  .unit {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .label {
+    font-size: 12px;
+  }
+  
+  .info {
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 305px;
+    
+  }
+  
+  /* .card {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 5px;
+  } */
+  
+  .luckyDraw {
+    border: #00ff00;
+    text-align: center;
+    margin-bottom: 1px;
+  }
+  .gif{
+    position: relative;
+    width: 400px;
+    height: 430px;
+  }
+  .profiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .exclusive {
+    text-align: left;
+    color: rgb(168, 166, 163);
+  }
+  
+  .claimBtn {
+    background-color: #00ff00;
+    color: #121212;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

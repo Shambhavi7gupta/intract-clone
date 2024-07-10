@@ -1,0 +1,63 @@
+/* src/components/Header.module.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav .active {
+    border-bottom: 2px solid #fff;
+  }
+  
+  .new {
+    background: purple;
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .actions input {
+    padding: 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .actions button {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .nav {
+      display: none;
+    }
+    
+    .actions input {
+      display: none;
+    }
+  }
+  
